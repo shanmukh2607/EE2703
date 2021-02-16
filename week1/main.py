@@ -39,4 +39,5 @@ for i in range(len(ckt_lines)-1,-1,-1):
     ckt_lines[i] = ckt_lines[i].strip()
     words = ckt_lines[i].split(' ')
     ckt_lines[i] = ' '.join(reversed(words))
-    print(ckt_lines[i])
+    if ckt_lines[i] != '':
+    	print(ckt_lines[i])

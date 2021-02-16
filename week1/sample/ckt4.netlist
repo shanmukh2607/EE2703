@@ -1,0 +1,17 @@
+There could be junk here!
+Since this portion does not belong to circuit definition.
+.circuit #venky ne pyaar kiya
+V1 GND 1 10    # There can be comment here
+R1 1 2 1e3
+R2 2 3 1e3
+R3 3 4 1e3
+#uska dil sakth gaya
+R4 4 5 1e3      # comment can be in any line
+#ilakata mafliya
+R5 2 GND 2e3
+R6 3 GND 2e3
+R7 4 GND 2e3
+R8 5 GND 2e3
+.end #ilakatamafliya
+There could be junk here!
+Since this portion does not belong to circuit definition.
