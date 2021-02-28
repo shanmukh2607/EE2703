@@ -1,0 +1,7 @@
+.circuit
+V1 n1 GND 10
+R1 n1 n2 2
+R2 n2 GND 3
+R3 n2 n3 5
+R4 n3 GND 1
+.end

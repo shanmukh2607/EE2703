@@ -1,0 +1,12 @@
+.circuit
+V1 sumedh1 GND ac 1 0  # There can be comment here
+C1 sumedh1 n2 4500
+R2 n2 n3 80.96e-6
+C1 n3 GND 2.485e-12
+C2 n3 n4 80.96e-6
+R4 n4 GND 4e3
+# comment can be in any line
+.end
+.ac V1 1e3
+There could be junk here!
+Since this portion does not belong to circuit definition.
